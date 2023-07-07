@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Candidate Search - Recruitment Solution</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h1>DIGITAL HIRE</h1>
+    </div>
+    <nav>
+        <ul>
+        <li><a href="landpage.html">Home</a></li>
+        <li><a href="search_candidate.html">Candidate Search</a></li>
+        <li class="signup">
+            <a href="#">Signup</a>
+            <ul class="dropdown-menu">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            </ul>
+        </li>
+        </ul>
+    </nav>
+</header>
+<section class="custom-section">
+    <div class="image-side">
+        <h1>WELCOME TO RECRUITMENT SOLUTION APP</h1>
+        <P>SEARCH CANDIDATE IN DIGITAL HIRE</P>
+    </div>
+</section>
+<section class="candidate-search">
+    <form>
+      <label for="location">Location:</label>
+      <input type="text" id="location" required>
+      <label for="jobRole">Job Role:</label>
+      <input type="text" id="jobRole" required>
+      <button type="button" onclick="searchCandidates()">Search</button>
+    </form>
+</section>
+<section class="fetch-candidate" id="candidatesSection">
+    <h3>
+        Fetched Candidate list will be shown here!!
+    </h3>
+    <h3>
+        For instance click on search to obtain some dummy/uploaded candidate!!
+    </h3>
+</section>
+</body>
+</html>
