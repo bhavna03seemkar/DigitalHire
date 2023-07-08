@@ -24,13 +24,13 @@ function searchCandidates() {
 // Login Page
 const loginButton = document.querySelector('.login');
 loginButton.addEventListener('click', function() {
-  window.location.href = 'landpage.html'; 
+  window.location.href = 'index.html'; 
 });
 
 // Register Page
 const registerButton = document.querySelector('.register');
 registerButton.addEventListener('click', function() {
-  window.location.href = 'landpage.html'; 
+  window.location.href = 'index.html'; 
 });
 
 // Candidate Search Page
